@@ -1,0 +1,5 @@
+[
+  {"id":"fc-ts-1","topicId":"typescript-basics","front":"What does strict mode improve?","back":"It catches unsafe assumptions around nullability, implicit any, function contracts and more.","difficulty":"beginner","tags":["typescript"]},
+  {"id":"fc-react-1","topicId":"react-components","front":"Where should business logic live?","back":"Outside presentation components, usually in hooks, services, stores or utilities.","difficulty":"beginner","tags":["react"]},
+  {"id":"fc-state-1","topicId":"state-management","front":"What should be stored globally?","back":"State shared across routes or features, persisted app state and derived data needed by multiple screens.","difficulty":"intermediate","tags":["zustand"]}
+]
