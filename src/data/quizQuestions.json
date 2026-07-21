@@ -1,0 +1,5 @@
+[
+  {"id":"q-ts-1","topicId":"typescript-basics","prompt":"Which type is safer for unknown external data?","choices":["any","unknown","never","string"],"correctAnswer":"unknown","explanation":"unknown requires narrowing before use, while any disables useful type checks.","difficulty":"beginner","tags":["typescript"]},
+  {"id":"q-react-1","topicId":"react-components","prompt":"What is a good reason to create a custom hook?","choices":["To hide all JSX","To reuse stateful logic","To avoid TypeScript","To replace routing"],"correctAnswer":"To reuse stateful logic","explanation":"Hooks are a natural place for reusable stateful behavior and side effects.","difficulty":"beginner","tags":["react"]},
+  {"id":"q-routing-1","topicId":"client-routing","prompt":"What should a topic detail page URL provide?","choices":["Deep linking","Hidden state only","A random id each render","No browser history"],"correctAnswer":"Deep linking","explanation":"Stable URLs make learning screens shareable and restorable.","difficulty":"intermediate","tags":["routing"]}
+]
