@@ -1,49 +1,80 @@
-# DevAtlas - Codex Context
+# DevAtlas - Master Context for Codex
 
-## Vision
-DevAtlas is a professional learning platform for software engineers focused on interview preparation. It should feel like a mix of roadmap.sh, Obsidian and JetBrains Academy.
+## Mission
+Build a production-quality learning platform for software engineers. The project should look and feel like a commercial SaaS product while remaining fully local-first during MVP.
 
-## Current goal
-Build an MVP using HTML, CSS and vanilla JavaScript. The architecture should make migration to React + TypeScript straightforward.
+## Tech Stack
+- React 19
+- TypeScript
+- Vite
+- React Router
+- Zustand
+- Tailwind CSS
+- Framer Motion
+- React Flow
+- Lucide React
 
-## Core features
-- Dashboard
-- Interactive knowledge map
-- Search
-- Topic details
-- Flashcards
-- Quiz
-- Interview mode
-- Progress tracking
-- Dark theme
+## Architecture
+Feature-first structure:
+src/
+  app/
+  components/
+  features/
+    dashboard/
+    atlas/
+    flashcards/
+    quiz/
+    interview/
+    progress/
+  layouts/
+  hooks/
+  services/
+  store/
+  data/
+  types/
+  utils/
 
-## Knowledge domains
-- C#
-- .NET
-- ASP.NET Core
-- SQL
-- Azure
-- Architecture
-- Design Patterns
-- Testing
-- Git & CI/CD
-- Soft Skills
+## Design Principles
+- SOLID
+- Clean Architecture mindset
+- Reusable components
+- Strong typing
+- Small focused files
+- Composition over inheritance
+- Responsive by default
 
-## Coding rules
-- Keep code modular.
-- Separate HTML, CSS and JavaScript.
-- Avoid duplicated logic.
-- Prefer reusable components.
-- Prepare for future React migration.
+## MVP Features
+1. Dashboard
+2. Interactive knowledge map
+3. Search
+4. Topic details
+5. Flashcards
+6. Quiz engine
+7. Progress tracking
+8. Dark mode
 
-## Roadmap
-1. Base layout.
-2. Knowledge data model.
-3. Topic viewer.
-4. Search.
-5. Flashcards.
-6. Quiz.
-7. Progress.
-8. UI polish.
+## Knowledge Model
+Every topic should contain:
+- id
+- title
+- description
+- difficulty
+- interview importance (1-5)
+- estimated study time
+- related topics
+- interview questions
+- code examples
+- common mistakes
+- references
 
-Always prioritize readability, maintainability and scalability over quick hacks.
+## UI Goal
+Inspired by roadmap.sh, Obsidian, VS Code and JetBrains IDEs.
+Modern, animated, minimalistic and responsive.
+
+## Development Rules
+Implement features incrementally. Keep commits small. Avoid unnecessary dependencies. Prefer maintainable solutions over clever ones. Prepare every feature for future backend integration with ASP.NET Core.
+
+## Long-term Vision
+Future versions should support authentication, cloud synchronization, AI-assisted learning, spaced repetition, interview simulations and analytics.
+
+Treat this document as the primary source of truth for implementation decisions unless future project documentation overrides specific sections.
